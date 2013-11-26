@@ -9,6 +9,7 @@ public sealed class ScreenScale : MonoBehaviour
   [SerializeField] private Texture2D buttonB = null;
   [SerializeField] private Texture2D buttonC = null;
   [SerializeField] private float scrollSpeed = 0.1f;
+  [SerializeField] private int htmlScene = 5;
   private float actualAspect = 0;
   private int level = 1;
   private float sfx;
@@ -21,6 +22,7 @@ public sealed class ScreenScale : MonoBehaviour
   private float scrollPos = 0;
   private Camera camera3d = null;
   private int scrollTorque = 0;//1 - down; 2 - up
+  private bool showButtons = true;
 
   public bool ScrollOn
   {
@@ -129,24 +131,36 @@ public sealed class ScreenScale : MonoBehaviour
   private void OnGUI()
   {
     GUI.skin = guISkin;
-    if (GUI.Button(new Rect(20 * sfx, 330 * sfy + scrollPos * 45 * Screen.height / 480, 280 * sfx, 45 * sfy), buttonA))
+    if (showButtons)
     {
-      if (level < 5)
+      if (GUI.Button(new Rect(20*sfx, 330*sfy + scrollPos*45*Screen.height/480, 280*sfx, 45*sfy), buttonA))
       {
-        var handler = RightAnswer;
-        if (handler != null)
-          handler();
+        if (level < 5)
+        {
+          var handler = RightAnswer;
+          if (handler != null)
+            handler();
+        }
+      }
+
+      if (GUI.Button(new Rect(20*sfx, 380*sfy + scrollPos*45*Screen.height/480, 280*sfx, 45*sfy), buttonB))
+      {
+
+      }
+
+      if (GUI.Button(new Rect(20*sfx, 430*sfy + scrollPos*45*Screen.height/480, 280*sfx, 45*sfy), buttonC))
+      {
+        Application.LoadLevel(htmlScene);
+        showButtons = false;
       }
     }
-    
-    if (GUI.Button(new Rect(20 * sfx, 380 * sfy + scrollPos * 45 * Screen.height / 480, 280 * sfx, 45 * sfy), buttonB))
+    else
     {
-
-    }
-
-    if (GUI.Button(new Rect(20 * sfx, 430 * sfy + scrollPos * 45 * Screen.height / 480, 280 * sfx, 45 * sfy), buttonC))
-    {
-
+      if (GUI.Button(new Rect(20 , Screen.height -60, 100, 50), "BACK"))
+      {
+        showButtons = true; 
+        Application.LoadLevel(1);
+      }
     }
   }
 
