@@ -1,7 +1,7 @@
 body{
 	background-color:black;
 	color:white;
-	font-family: url('Fonts/TitanOne-Regular');
+	font-family: url('Fonts/SpicyRice-Regular');
 	font-size: 20px;
 }
 
@@ -26,18 +26,18 @@ body{
 }
 
 #code{
-	font-family:url('Fonts/SpicyRice-Regular');
-	background-image:url('Images/moldura.png');
-	width:400px;
-	height:400px;
+	font-family:url('Fonts/Dosis-Bold');
+	//background-image:url('Images/moldura.png');
+	width:440px;
+	height:640px;
 	position:absolute;
 	vertical-align:center;
 	horizontal-align:center;
 }
 
 #code div{
-	width:380px;
-	height:380px;
+	width:420px;
+	height:620px;
 	overflow:auto; 
 	horizontal-align:center;
 	vertical-align:center;

@@ -2,8 +2,8 @@
 using UnityEngine;
 using System.Collections;
 
-public class GUIDesignGeneric : GUIDesign {
-
+public class GUIDesignGeneric : GUIDesign
+{
     public void ShowCode(object[] objs) {
         HTMLElement code = html.AllElements.Find(n => n.Id == "code");
         code.Visible = !code.Visible;
