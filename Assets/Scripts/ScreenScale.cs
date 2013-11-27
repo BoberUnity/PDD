@@ -10,6 +10,7 @@ public sealed class ScreenScale : MonoBehaviour
   [SerializeField] private Texture2D buttonC = null;
   [SerializeField] private float scrollSpeed = 0.1f;
   [SerializeField] private int htmlScene = 5;
+  [SerializeField] private int storeScene = 6;
   private float actualAspect = 0;
   private int level = 1;
   private float sfx;
@@ -63,7 +64,6 @@ public sealed class ScreenScale : MonoBehaviour
       Debug.Log("Start IPhone5");
       transform.localScale = new Vector3(Screen.width / 10, 1, Screen.height / 10);
     }
-    
   }
 
   void Update()
@@ -145,7 +145,8 @@ public sealed class ScreenScale : MonoBehaviour
 
       if (GUI.Button(new Rect(20*sfx, 380*sfy + scrollPos*45*Screen.height/480, 280*sfx, 45*sfy), buttonB))
       {
-
+          Application.LoadLevel(storeScene);
+          showButtons = false;
       }
 
       if (GUI.Button(new Rect(20*sfx, 430*sfy + scrollPos*45*Screen.height/480, 280*sfx, 45*sfy), buttonC))
@@ -156,6 +157,7 @@ public sealed class ScreenScale : MonoBehaviour
     }
     else
     {
+      GUI.Box(new Rect(20 , Screen.height -60, 100, 50), "");
       if (GUI.Button(new Rect(20 , Screen.height -60, 100, 50), "BACK"))
       {
         showButtons = true; 
