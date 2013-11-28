@@ -5,7 +5,10 @@ using UnityEngine;
 // as it is scaled to a smaller resolution.
 // The effect works by accumulating the previous frames in an accumulation
 // texture.
-[AddComponentMenu("Image Effects/Motion Blur")]
+[ExecuteInEditMode]
+[AddComponentMenu("Image Effects/Blur/Motion Blur (Color Accumulation)")]
+[RequireComponent(typeof(Camera))]
+
 public class MotionBlur : ImageEffectBase
 {
 	public float blurAmount = 0.8f;
@@ -13,7 +16,17 @@ public class MotionBlur : ImageEffectBase
 	
 	private RenderTexture accumTexture;
 	
-	protected new void OnDisable()
+	override protected void Start()
+	{
+		if(!SystemInfo.supportsRenderTextures)
+		{
+			enabled = false;
+			return;
+		}
+		base.Start();
+	}
+	
+	override protected void OnDisable()
 	{
 		base.OnDisable();
 		DestroyImmediate(accumTexture);
@@ -28,15 +41,16 @@ public class MotionBlur : ImageEffectBase
 			DestroyImmediate(accumTexture);
 			accumTexture = new RenderTexture(source.width, source.height, 0);
 			accumTexture.hideFlags = HideFlags.HideAndDontSave;
-			ImageEffects.Blit( source, accumTexture );
+			Graphics.Blit( source, accumTexture );
 		}
 		
 		// If Extra Blur is selected, downscale the texture to 4x4 smaller resolution.
 		if (extraBlur)
 		{
 			RenderTexture blurbuffer = RenderTexture.GetTemporary(source.width/4, source.height/4, 0);
-			ImageEffects.Blit(accumTexture, blurbuffer);
-			ImageEffects.Blit(blurbuffer,accumTexture);
+			accumTexture.MarkRestoreExpected();
+			Graphics.Blit(accumTexture, blurbuffer);
+			Graphics.Blit(blurbuffer,accumTexture);
 			RenderTexture.ReleaseTemporary(blurbuffer);
 		}
 		
@@ -47,6 +61,10 @@ public class MotionBlur : ImageEffectBase
 		material.SetTexture("_MainTex", accumTexture);
 		material.SetFloat("_AccumOrig", 1.0F-blurAmount);
 		
+		// We are accumulating motion over frames without clear/discard
+		// by design, so silence any performance warnings from Unity
+		accumTexture.MarkRestoreExpected();
+
 		// Render the image using the motion blur shader
 		Graphics.Blit (source, accumTexture, material);
 		Graphics.Blit (accumTexture, destination);

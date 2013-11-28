@@ -1,10 +1,6 @@
-// Upgrade NOTE: replaced 'glstate.matrix.mvp' with 'UNITY_MATRIX_MVP'
-// Upgrade NOTE: replaced 'samplerRECT' with 'sampler2D'
-// Upgrade NOTE: replaced 'texRECT' with 'tex2D'
-
 Shader "Hidden/Twirt Effect Shader" {
 Properties {
-	_MainTex ("Base (RGB)", RECT) = "white" {}
+	_MainTex ("Base (RGB)", 2D) = "white" {}
 }
 
 SubShader {
@@ -45,10 +41,6 @@ float4 frag (v2f i) : COLOR
 	
 	offset = lerp (distortedOffset, offset, t);
 	offset += _CenterRadius.xy;
-	
-	#ifdef SHADER_API_OPENGL
-	offset *= _MainTex_TexelSize.zw;
-	#endif
 	
 	return tex2D(_MainTex, offset);
 }

@@ -35,7 +35,7 @@ public class StoreKitGUIManager : MonoBehaviourGUI
 		if( GUILayout.Button( "Get Product Data" ) )
 		{
 			// array of product ID's from iTunesConnect.  MUST match exactly what you have there!
-			var productIdentifiers = new string[] { "anotherProduct", "tt", "testProduct", "sevenDays", "oneMonthSubsciber" };
+			var productIdentifiers = new string[] { "com.zuev.pdd.50", "com.zuev.pdd.50"};
 			StoreKitBinding.requestProductData( productIdentifiers );
 		}
 		
@@ -95,7 +95,7 @@ public class StoreKitGUIManager : MonoBehaviourGUI
 
 		if( GUILayout.Button( "Display App Store" ) )
 		{
-			StoreKitBinding.displayStoreWithProductId( "305967442" );
+			StoreKitBinding.displayStoreWithProductId( "768171059" );//305967442
 		}
 		
 		endColumn();

@@ -9,6 +9,8 @@ Project("{FEECE1CE-41C4-6DB9-B5BA-EB6DB2CD7CD7}") = "PDD", "Assembly-UnityScript
 EndProject
 Project("{FEECE1CE-41C4-6DB9-B5BA-EB6DB2CD7CD7}") = "PDD", "Assembly-UnityScript.unityproj", "{70D297CD-4DDC-CAFA-4FC3-C26A24C15E3E}"
 EndProject
+Project("{FEECE1CE-41C4-6DB9-B5BA-EB6DB2CD7CD7}") = "PDD", "Assembly-UnityScript-Editor.unityproj", "{1FABD72C-6EA4-7C92-5BE2-A06E753009C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,11 +33,15 @@ Global
 		{70D297CD-4DDC-CAFA-4FC3-C26A24C15E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70D297CD-4DDC-CAFA-4FC3-C26A24C15E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70D297CD-4DDC-CAFA-4FC3-C26A24C15E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FABD72C-6EA4-7C92-5BE2-A06E753009C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FABD72C-6EA4-7C92-5BE2-A06E753009C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FABD72C-6EA4-7C92-5BE2-A06E753009C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FABD72C-6EA4-7C92-5BE2-A06E753009C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+																		GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -53,4 +59,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
