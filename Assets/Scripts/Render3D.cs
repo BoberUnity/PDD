@@ -42,6 +42,7 @@ public class Render3D : MonoBehaviour
         screen2.localScale = new Vector3(screen2.localScale.x, screen2.localScale.y, screen2.localScale.z * actualAspect / 1.7777f);
         //screen1.localPosition = new Vector3(screen1.localPosition.x, screen1.localPosition.y, screen1.localPosition.z);
         qPosX = Question1Label.localPosition.x;
+        qPosY = Question1Label.localPosition.y;
     }
     
     private void Update()
@@ -82,8 +83,8 @@ public class Render3D : MonoBehaviour
                 camera1.rect = (new Rect(0.04f, y + 0.59f, 0.92f, viewHeight));
             }
         }
-        screen1.localPosition = new Vector3(screen1.localPosition.x, scroll.localPosition.y * (actualAspect / 1.77778f) / 576 - 0.11f * (actualAspect / 1.77778f), screen1.localPosition.z);
-        screen2.localPosition = new Vector3(screen2.localPosition.x, scroll.localPosition.y * (actualAspect / 1.77778f) / 576 - 0.11f * (actualAspect / 1.77778f), screen2.localPosition.z);
+        screen1.localPosition = new Vector3(screen1.localPosition.x, (scroll.localPosition.y / 576 - 0.11f) * (actualAspect / 1.77778f), screen1.localPosition.z);
+        screen2.localPosition = new Vector3(screen2.localPosition.x, (scroll.localPosition.y / 576 - 0.11f) * (actualAspect / 1.77778f), screen2.localPosition.z);
 
         sprite1.localPosition = new Vector3(screen1.localPosition.x * 620 / 1.13f, scroll.localPosition.y - 65,
                                                 sprite1.localPosition.z);
