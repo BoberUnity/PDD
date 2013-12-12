@@ -89,10 +89,10 @@ public class Render3D : MonoBehaviour
         sprite2.localPosition = new Vector3(screen2.localPosition.x * 620 / 1.13f, scroll.localPosition.y - 65,
                                             sprite2.localPosition.z);
 
-        Question1Label.localPosition = new Vector3((1.7777f / actualAspect) * screen1.localPosition.x * 620 / 1.13f + qPosX, scroll.localPosition.y - 65,
-                                                sprite1.localPosition.z);
-        Question2Label.localPosition = new Vector3((1.7777f / actualAspect) * screen2.localPosition.x * 620 / 1.13f + qPosX, scroll.localPosition.y - 65,
-                                                sprite2.localPosition.z);
+        Question1Label.localPosition = new Vector3((1.7777f / actualAspect) * screen1.localPosition.x * 620 / 1.13f + qPosX, Question1Label.localPosition.y,
+                                                Question1Label.localPosition.z);
+        Question2Label.localPosition = new Vector3((1.7777f / actualAspect) * screen2.localPosition.x * 620 / 1.13f + qPosX, Question1Label.localPosition.y,
+                                                Question1Label.localPosition.z);
 
         if (camera1 != null)
             camera1.rect = (new Rect(screen1.localPosition.x / 1.13f + 0.04f, y + 0.59f, 0.92f, viewHeight));
