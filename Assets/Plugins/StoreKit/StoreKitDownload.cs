@@ -5,7 +5,7 @@ using Prime31;
 
 
 
-#if UNITY_IPHONE
+//#if UNITY_IPHONE
 public enum StoreKitDownloadState
 {
 	Waiting,
@@ -86,4 +86,4 @@ public class StoreKitDownload
 			downloadState, contentLength, contentIdentifier, contentURL, contentVersion, error, progress, transaction );
 	}
 }
-#endif
+//#endif

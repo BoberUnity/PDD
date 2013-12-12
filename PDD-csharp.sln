@@ -5,6 +5,8 @@ Project("{FEECE1CE-41C4-6DB9-B5BA-EB6DB2CD7CD7}") = "PDD", "Assembly-CSharp-firs
 EndProject
 Project("{FEECE1CE-41C4-6DB9-B5BA-EB6DB2CD7CD7}") = "PDD", "Assembly-CSharp-vs.csproj", "{3361B45A-10F2-2536-55DC-6D3AD244887F}"
 EndProject
+Project("{FEECE1CE-41C4-6DB9-B5BA-EB6DB2CD7CD7}") = "PDD", "Assembly-CSharp-Editor-vs.csproj", "{BEB7D10A-1194-E425-D0BC-1BA9D454D159}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{3361B45A-10F2-2536-55DC-6D3AD244887F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3361B45A-10F2-2536-55DC-6D3AD244887F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3361B45A-10F2-2536-55DC-6D3AD244887F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB7D10A-1194-E425-D0BC-1BA9D454D159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB7D10A-1194-E425-D0BC-1BA9D454D159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB7D10A-1194-E425-D0BC-1BA9D454D159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB7D10A-1194-E425-D0BC-1BA9D454D159}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																			GlobalSection(MonoDevelopProperties) = preSolution
+				GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

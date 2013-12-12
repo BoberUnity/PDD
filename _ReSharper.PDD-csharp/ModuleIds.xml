@@ -1,4 +1,4 @@
 <Modules>
-  <Module PersistentId="31D297A2-24B0-EADE-B1B9-B322DA088BC6" ModuleId="Assembly-CSharp-firstpass-vs" />
   <Module PersistentId="3361B45A-10F2-2536-55DC-6D3AD244887F" ModuleId="Assembly-CSharp-vs" />
+  <Module PersistentId="BEB7D10A-1194-E425-D0BC-1BA9D454D159" ModuleId="Assembly-CSharp-Editor-vs" />
 </Modules>

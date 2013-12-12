@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Prime31;
 
 
-#if UNITY_IPHONE
+//#if UNITY_IPHONE
 public class StoreKitManager : AbstractManager
 {
 	public static bool autoConfirmTransactions = true;
@@ -114,4 +114,4 @@ public class StoreKitManager : AbstractManager
 	}
 
 }
-#endif
+//#endif

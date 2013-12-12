@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
 
-#if UNITY_IPHONE
+//#if UNITY_IPHONE
 public class StoreKitBinding
 {
 	[DllImport("__Internal")]
@@ -149,4 +149,4 @@ public class StoreKitBinding
 	}
 
 }
-#endif
+//#endif
