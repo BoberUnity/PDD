@@ -82,8 +82,8 @@ public class Render3D : MonoBehaviour
                 camera1.rect = (new Rect(0.04f, y + 0.59f, 0.92f, viewHeight));
             }
         }
-        screen1.localPosition = new Vector3(screen1.localPosition.x, scroll.localPosition.y / 576 - 0.11f /*+ (1.77778f - actualAspect) * 0.11f*/, screen1.localPosition.z);
-        screen2.localPosition = new Vector3(screen2.localPosition.x, scroll.localPosition.y / 576 - 0.11f /*+ (1.77778f - actualAspect) * 0.11f*/, screen2.localPosition.z);
+        screen1.localPosition = new Vector3(screen1.localPosition.x, scroll.localPosition.y * (actualAspect / 1.77778f) / 576 - 0.11f * (actualAspect / 1.77778f), screen1.localPosition.z);
+        screen2.localPosition = new Vector3(screen2.localPosition.x, scroll.localPosition.y * (actualAspect / 1.77778f) / 576 - 0.11f * (actualAspect / 1.77778f), screen2.localPosition.z);
 
         sprite1.localPosition = new Vector3(screen1.localPosition.x * 620 / 1.13f, scroll.localPosition.y - 65,
                                                 sprite1.localPosition.z);
@@ -96,9 +96,9 @@ public class Render3D : MonoBehaviour
                                                 Question1Label.localPosition.z);
 
         if (camera1 != null)
-            camera1.rect = (new Rect(screen1.localPosition.x / 1.13f + 0.04f, y + 0.59f, 0.92f, viewHeight));
+            camera1.rect = (new Rect(screen1.localPosition.x / 1.13f + 0.04f, y * (actualAspect/1.77778f) + 0.59f, 0.92f, viewHeight));
         if (camera2 != null)
-            camera2.rect = (new Rect(screen2.localPosition.x / 1.13f + 0.04f, y + 0.59f, 0.92f, viewHeight));
+            camera2.rect = (new Rect(screen2.localPosition.x / 1.13f + 0.04f, y * (actualAspect / 1.77778f) + 0.59f, 0.92f, viewHeight));
         
     }
 }
