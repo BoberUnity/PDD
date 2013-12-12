@@ -11,3 +11,4 @@ Home = Домой
 Mission = Миссии
 Targets = Цели
 Shop = Магазин
+I DONT = Я НЕ\nЗНАЮ?

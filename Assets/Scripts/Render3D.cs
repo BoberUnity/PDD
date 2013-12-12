@@ -20,7 +20,7 @@ public class Render3D : MonoBehaviour
     public Camera camera2 = null;
     private bool cam1Left = false;
     private float y = 0;
-
+    private float qPosX = 0;
     public bool Play
     {
         set { play = value; }
@@ -40,6 +40,7 @@ public class Render3D : MonoBehaviour
         screen1.localScale = new Vector3(screen1.localScale.x, screen1.localScale.y, screen1.localScale.z * actualAspect / 1.7777f);
         screen2.localScale = new Vector3(screen2.localScale.x, screen2.localScale.y, screen2.localScale.z * actualAspect / 1.7777f);
         //screen1.localPosition = new Vector3(screen1.localPosition.x, screen1.localPosition.y, screen1.localPosition.z);
+        qPosX = Question1Label.localPosition.x;
     }
     
     private void Update()
@@ -88,9 +89,9 @@ public class Render3D : MonoBehaviour
         sprite2.localPosition = new Vector3(screen2.localPosition.x * 620 / 1.13f, scroll.localPosition.y - 65,
                                             sprite2.localPosition.z);
 
-        Question1Label.localPosition = new Vector3(screen1.localPosition.x * 620 / 1.13f, scroll.localPosition.y - 65,
+        Question1Label.localPosition = new Vector3((1.7777f / actualAspect) * screen1.localPosition.x * 620 / 1.13f + qPosX, scroll.localPosition.y - 65,
                                                 sprite1.localPosition.z);
-        Question2Label.localPosition = new Vector3(screen2.localPosition.x * 620 / 1.13f, scroll.localPosition.y - 65,
+        Question2Label.localPosition = new Vector3((1.7777f / actualAspect) * screen2.localPosition.x * 620 / 1.13f + qPosX, scroll.localPosition.y - 65,
                                                 sprite2.localPosition.z);
 
         if (camera1 != null)

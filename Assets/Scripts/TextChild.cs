@@ -6,7 +6,7 @@ using UnityEngine;
 public class TextChild : MonoBehaviour
 {
     [SerializeField] private Render3D render3D = null;
-    [SerializeField] private UILabel labelQuetion = null;
+    [SerializeField] private UILabel label1Quetion = null;
     [SerializeField] private UILabel label2Quetion = null;
     [SerializeField] private UILabel labelA = null;
     [SerializeField] private UILabel labelB = null;
@@ -103,7 +103,7 @@ public class TextChild : MonoBehaviour
         labelC.text = "";
         labelD.text = "";
         if (render3D.Cam1Left)
-            labelQuetion.text = t.allBox[numQuestion+1][1];
+            label1Quetion.text = t.allBox[numQuestion+1][1];
         else
             label2Quetion.text = t.allBox[numQuestion+1][1];
         //NumQuestion++;//text
@@ -232,7 +232,7 @@ public class TextChild : MonoBehaviour
         yield return new WaitForSeconds(time);
         t = GameObject.Find("TextController(Clone)").GetComponent<Text>();
         NumQuestion = 1;
-        labelQuetion.text = t.allBox[numQuestion][1];
+        label1Quetion.text = t.allBox[numQuestion][1];
         instance = Instantiate(Resources.Load<GameObject>("Prefs/" + t.allBox[NumQuestion][0].Substring(0, t.allBox[NumQuestion][0].Length - 1))) as GameObject;
         SetLayer(instance, 9);
         Camera cam = instance.GetComponentInChildren<Camera>();
@@ -280,5 +280,10 @@ public class TextChild : MonoBehaviour
             }
             
         }
+    }
+
+    public void DontKnow(UILabel label)
+    {
+        label.text = t.allBox[numQuestion][2];
     }
 }

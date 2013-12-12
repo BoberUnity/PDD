@@ -877,15 +877,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 93
-  mHeight: 32
+  mWidth: 72
+  mHeight: 24
   mDepth: 1
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: Mission
-  mFontSize: 32
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -930,15 +930,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 71
-  mHeight: 32
+  mWidth: 54
+  mHeight: 24
   mDepth: 1
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: Home
-  mFontSize: 32
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -983,8 +983,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 89
-  mHeight: 64
+  mWidth: 69
+  mHeight: 48
   mDepth: 1
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
@@ -993,7 +993,7 @@ MonoBehaviour:
   mText: 'Targets
 
 '
-  mFontSize: 32
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -1038,8 +1038,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 63
-  mHeight: 64
+  mWidth: 48
+  mHeight: 48
   mDepth: 1
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
@@ -1048,7 +1048,7 @@ MonoBehaviour:
   mText: 'Shop
 
 '
-  mFontSize: 32
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0

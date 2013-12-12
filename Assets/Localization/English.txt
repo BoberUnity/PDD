@@ -11,3 +11,4 @@ Home = Home
 Mission = Mission
 Targets = Targets
 Shop = Shop
+I DONT = I DONT\n KNOW?

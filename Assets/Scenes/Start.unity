@@ -214,7 +214,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 42}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.60400999, y: .802675545, z: 0}
+  m_LocalPosition: {x: -1, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 81}
@@ -457,8 +457,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: .83088237, g: .498529404, b: 0, a: 1}
   mPivot: 4
-  mWidth: 390
-  mHeight: 156
+  mWidth: 161
+  mHeight: 72
   mDepth: 3
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
@@ -466,7 +466,7 @@ MonoBehaviour:
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: "\u0412\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435\n\u043F\u043E\u043A\u0443\u043F\u043E\u043A\n\u0441
     \u043E\u0448\u0438\u0431\u043A\u043E\u0439"
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -526,15 +526,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 4
-  mWidth: 119
-  mHeight: 52
+  mWidth: 47
+  mHeight: 24
   mDepth: 3
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: trans
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -594,8 +594,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: .83088237, g: .498529404, b: 0, a: 1}
   mPivot: 4
-  mWidth: 257
-  mHeight: 156
+  mWidth: 100
+  mHeight: 72
   mDepth: 3
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
@@ -603,7 +603,7 @@ MonoBehaviour:
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: "\u041F\u043E\u043A\u0443\u043F\u043A\u0430\n\u043F\u0440\u043E\u0448\u043B\u0430
     \n\u0441 \u043E\u0448\u0438\u0431\u043A\u043E\u0439"
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -1058,15 +1058,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 4
-  mWidth: 59
-  mHeight: 52
+  mWidth: 22
+  mHeight: 24
   mDepth: 3
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: 'id:'
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -1126,15 +1126,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 4
-  mWidth: 59
-  mHeight: 52
+  mWidth: 22
+  mHeight: 24
   mDepth: 3
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: 'id:'
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -1225,15 +1225,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: .83088237, g: .498529404, b: 0, a: 1}
   mPivot: 4
-  mWidth: 386
-  mHeight: 208
+  mWidth: 156
+  mHeight: 96
   mDepth: 3
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: "\u041F\u043E\u043A\u0443\u043F\u043A\u0438\n\u0443\u0441\u043F\u0435\u0448\u043D\u043E\n\u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u044B!\n"
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -1721,8 +1721,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: .83088237, g: .498529404, b: 0, a: 1}
   mPivot: 4
-  mWidth: 407
-  mHeight: 208
+  mWidth: 166
+  mHeight: 96
   mDepth: 3
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
@@ -1731,7 +1731,7 @@ MonoBehaviour:
   mText: "\u041F\u043E\u043A\u0443\u043F\u043A\u0430\n\u0441\u043E\u0432\u0435\u0440\u0448\u0435\u043D\u0430
     \n\u0443\u0441\u043F\u0435\u0448\u043D\u043E!\n\"\u0417\u043E\u043B\u043E\u0442\u043E\u0439
     \u0441\u0442\u0430\u0442\u0443\u0441\""
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -1937,15 +1937,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: .83088237, g: .498529404, b: 0, a: 1}
   mPivot: 4
-  mWidth: 303
-  mHeight: 156
+  mWidth: 121
+  mHeight: 72
   mDepth: 3
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: "\u041D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E\n\u0441\u043E\u0432\u0435\u0440\u0448\u0438\u0442\u044C\n\u043F\u043E\u043A\u0443\u043F\u043A\u0438"
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -2193,7 +2193,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1239324535}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 319.197998, y: 480.802643, z: 0}
+  m_LocalPosition: {x: 639, y: 480.999939, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1514299382}
@@ -2257,8 +2257,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: .83088237, g: .498529404, b: 0, a: 1}
   mPivot: 4
-  mWidth: 407
-  mHeight: 156
+  mWidth: 165
+  mHeight: 72
   mDepth: 3
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
@@ -2266,7 +2266,7 @@ MonoBehaviour:
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: "\u0421\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u043D\u044B\u0445\n\u043F\u043E\u043A\u0443\u043F\u043E\u043A\n\u043D\u0435
     \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D\u043E..."
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -2409,7 +2409,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1352142159}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.60400999, y: 480.802643, z: 0}
+  m_LocalPosition: {x: -1, y: 480.999939, z: 0}
   m_LocalScale: {x: 1, y: .9999125, z: .9999125}
   m_Children:
   - {fileID: 690971945}
@@ -2475,15 +2475,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 4
-  mWidth: 119
-  mHeight: 52
+  mWidth: 49
+  mHeight: 24
   mDepth: 3
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: 'Gold:'
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -2638,15 +2638,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 4
-  mWidth: 344
-  mHeight: 52
+  mWidth: 141
+  mHeight: 24
   mDepth: 3
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: "100 \u0412\u043E\u043F\u0440\u043E\u0441\u043E\u0432:"
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -2708,15 +2708,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 175
-  mHeight: 52
+  mWidth: 72
+  mHeight: 24
   mDepth: 1
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: Mission
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -2791,15 +2791,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 133
-  mHeight: 52
+  mWidth: 54
+  mHeight: 24
   mDepth: 1
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: Home
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -2872,15 +2872,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 342
-  mHeight: 52
+  mWidth: 152
+  mHeight: 24
   mDepth: 2
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: START [ffff00]SCENE[-]
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -3036,8 +3036,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: .83088237, g: .498529404, b: 0, a: 1}
   mPivot: 4
-  mWidth: 361
-  mHeight: 208
+  mWidth: 146
+  mHeight: 96
   mDepth: 3
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
@@ -3045,7 +3045,7 @@ MonoBehaviour:
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
   mText: "\u041F\u043E\u043A\u0443\u043F\u043A\u0430\n\u0441\u043E\u0432\u0435\u0440\u0448\u0435\u043D\u0430
     \n\u0443\u0441\u043F\u0435\u0448\u043D\u043E!\n\"100 \u0432\u043E\u043F\u0440\u043E\u0441\u043E\u0432\""
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -3287,8 +3287,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 172
-  mHeight: 104
+  mWidth: 69
+  mHeight: 48
   mDepth: 1
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
@@ -3297,7 +3297,7 @@ MonoBehaviour:
   mText: 'Targets
 
 '
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -3372,8 +3372,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mWidth: 115
-  mHeight: 104
+  mWidth: 48
+  mHeight: 48
   mDepth: 1
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
@@ -3382,7 +3382,7 @@ MonoBehaviour:
   mText: 'Shop
 
 '
-  mFontSize: 52
+  mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
   mMaxLineCount: 0
@@ -3510,9 +3510,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 844eba72b2a53074e8f016625be78a11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  position: 0
-  scaleY: 0
+  positionX: 1
+  positionY: 1
   scaleX: 0
+  scaleY: 0
+  inv: 0
 --- !u!1 &1936414740
 GameObject:
   m_ObjectHideFlags: 0
@@ -3536,7 +3538,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1936414740}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.60400999, y: -479.197296, z: 0}
+  m_LocalPosition: {x: -1, y: -478.999969, z: 0}
   m_LocalScale: {x: 1.00002503, y: 1.00002503, z: 1.00002503}
   m_Children:
   - {fileID: 1378574579}

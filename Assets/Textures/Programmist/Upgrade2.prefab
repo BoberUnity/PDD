@@ -171,8 +171,8 @@ MonoBehaviour:
     paddingTop: 2
     paddingBottom: 1
   - name: Counter
-    x: 0
-    y: 24
+    x: 1334
+    y: 2024
     width: 204
     height: 24
     borderLeft: 0
@@ -221,6 +221,19 @@ MonoBehaviour:
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 6
+    paddingBottom: 0
+  - name: RedLine
+    x: 0
+    y: 24
+    width: 568
+    height: 24
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 1
+    paddingTop: 5
     paddingBottom: 0
   - name: Star
     x: 569

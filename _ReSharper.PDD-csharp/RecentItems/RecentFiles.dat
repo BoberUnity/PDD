@@ -5,21 +5,22 @@
     <File id="31D297A2-24B0-EADE-B1B9-B322DA088BC6/d:Assets/d:Plugins/d:StoreKit/d:demo/f:StoreKitEventListener.cs" caret="0" fromTop="0" />
     <File id="31D297A2-24B0-EADE-B1B9-B322DA088BC6/d:Assets/d:Plugins/d:StoreKit/f:StoreKitProduct.cs" caret="0" fromTop="0" />
     <File id="BEB7D10A-1194-E425-D0BC-1BA9D454D159/d:Assets/d:NGUI/d:Scripts/d:Editor/f:UIFontInspector.cs" caret="6120" fromTop="15" />
-    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:InterfaceScale.cs" caret="1113" fromTop="19" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:NGUI/d:Scripts/d:Internal/f:UIWidget.cs" caret="976" fromTop="8" />
-    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:DimensionScale.cs" caret="280" fromTop="8" />
     <File id="BEB7D10A-1194-E425-D0BC-1BA9D454D159/d:Assets/d:NGUI/d:Scripts/d:Editor/f:UIWidgetInspector.cs" caret="21659" fromTop="6" />
     <File id="BEB7D10A-1194-E425-D0BC-1BA9D454D159/d:Assets/d:NGUI/d:Scripts/d:Editor/f:UILabelInspector.cs" caret="0" fromTop="0" />
-    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:TextChild.cs" caret="6169" fromTop="21" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:NGUI/d:Scripts/d:UI/f:UILabel.cs" caret="403" fromTop="0" />
-    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:Render3D.cs" caret="4720" fromTop="18" />
+    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:InterfaceScale.cs" caret="705" fromTop="11" />
+    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:DimensionScale.cs" caret="292" fromTop="9" />
+    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:Render3D.cs" caret="4726" fromTop="12" />
+    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:TextChild.cs" caret="10909" fromTop="10" />
+    <File id="7020124F-9FFC-4AC3-8F3D-AAB8E0240759/f:ButtonDontKnow.cs" caret="0" fromTop="0" />
   </RecentFiles>
   <RecentEdits>
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:NGUI/d:Scripts/d:UI/f:UIRoot.cs" caret="3396" fromTop="19" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:InterfaceScale.cs" caret="730" fromTop="19" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:NGUI/d:Scripts/d:Internal/f:UIWidget.cs" caret="976" fromTop="8" />
-    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:DimensionScale.cs" caret="275" fromTop="8" />
-    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:TextChild.cs" caret="6194" fromTop="22" />
-    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:Render3D.cs" caret="4720" fromTop="18" />
+    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:DimensionScale.cs" caret="292" fromTop="9" />
+    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:Render3D.cs" caret="4726" fromTop="12" />
+    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:TextChild.cs" caret="10879" fromTop="9" />
   </RecentEdits>
 </RecentFiles>
