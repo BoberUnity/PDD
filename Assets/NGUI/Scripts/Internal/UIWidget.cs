@@ -36,8 +36,8 @@ public class UIWidget : MonoBehaviour
 	// Cached and saved values
 	[HideInInspector][SerializeField] protected Color mColor = Color.white;
 	[HideInInspector][SerializeField] protected Pivot mPivot = Pivot.Center;
-	[HideInInspector][SerializeField] public int mWidth = 100;
-	[HideInInspector][SerializeField] protected int mHeight = 100;
+    [HideInInspector][SerializeField] protected int mWidth = 100;
+    [HideInInspector][SerializeField] protected int mHeight = 100;
 	[HideInInspector][SerializeField] protected int mDepth = 0;
 
 	/// <summary>

@@ -72,7 +72,7 @@ public class UILabel : UIWidget
 	[HideInInspector][SerializeField] int mMaxLineHeight = 0;
 	[HideInInspector][SerializeField] float mLineWidth = 0;
 	[HideInInspector][SerializeField] bool mMultiline = true;
-
+    
 #if DYNAMIC_FONT
 	Font mActiveTTF = null;
 	UIRoot mRoot;
@@ -719,6 +719,7 @@ public class UILabel : UIWidget
 	/// <summary>
 	/// Register the font texture change listener.
 	/// </summary>
+	/// 
 
 	protected override void OnEnable ()
 	{
@@ -938,8 +939,7 @@ public class UILabel : UIWidget
 		float invSize = 1f / ps;
 		float lw = legacyMode ? (mMaxLineWidth  != 0 ? mMaxLineWidth  * invSize : 1000000) : width  * invSize;
 		float lh = legacyMode ? (mMaxLineHeight != 0 ? mMaxLineHeight * invSize : 1000000) : height * invSize;
-
-		mScale = 1f;
+        mScale = 1f;
 		mPrintedSize = Mathf.Abs(legacyMode ? Mathf.RoundToInt(cachedTransform.localScale.x) : fs);
 
 		NGUIText.current.size = fs;

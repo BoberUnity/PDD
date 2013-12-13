@@ -91,9 +91,9 @@ public class Render3D : MonoBehaviour
         sprite2.localPosition = new Vector3(screen2.localPosition.x * 620 / 1.13f, scroll.localPosition.y - 65,
                                             sprite2.localPosition.z);
 
-        Question1Label.localPosition = new Vector3((1.7777f / actualAspect) * screen1.localPosition.x * 620 / 1.13f + qPosX, scroll.localPosition.y - 65 + qPosY,
+        Question1Label.localPosition = new Vector3((1.7777f / actualAspect) * screen1.localPosition.x * 620 / 1.13f + qPosX, scroll.localPosition.y - 65 + qPosY - textController.LabelQuest1Resize,
                                                 Question1Label.localPosition.z);
-        Question2Label.localPosition = new Vector3((1.7777f / actualAspect) * screen2.localPosition.x * 620 / 1.13f + qPosX, scroll.localPosition.y - 65 + qPosY,
+        Question2Label.localPosition = new Vector3((1.7777f / actualAspect) * screen2.localPosition.x * 620 / 1.13f + qPosX, scroll.localPosition.y - 65 + qPosY - textController.LabelQuest2Resize,
                                                 Question1Label.localPosition.z);
 
         if (camera1 != null)

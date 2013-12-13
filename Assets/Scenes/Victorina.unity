@@ -783,7 +783,7 @@ GameObject:
   - 4: {fileID: 272604952}
   - 114: {fileID: 272604953}
   m_Layer: 8
-  m_Name: SpriteDown
+  m_Name: SpriteDown2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -796,7 +796,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 272604951}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 99.9998093, z: 0}
+  m_LocalPosition: {x: 0, y: 109.999802, z: 0}
   m_LocalScale: {x: .999679923, y: 1.00024796, z: .999679923}
   m_Children: []
   m_Father: {fileID: 1768119247}
@@ -868,13 +868,14 @@ MonoBehaviour:
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 4
   mWidth: 500
-  mHeight: 68
+  mHeight: 72
   mDepth: 2
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
   mFont: {fileID: 11400000, guid: 038e0f2dcddd1ba4b960e882add9da8b, type: 2}
-  mText: ANSWER TO THE QUESTION
+  mText: ANSWER TO THE QUESTION ANSWER TO THE QUESTIONANSWER TO THE QUESTIONANSWER
+    TO THE QUESTION
   mFontSize: 24
   mFontStyle: 0
   mEncoding: 1
@@ -884,7 +885,7 @@ MonoBehaviour:
   mEffectColor: {r: 0, g: 0, b: 0, a: 1}
   mSymbols: 1
   mEffectDistance: {x: 1, y: 1}
-  mOverflow: 1
+  mOverflow: 3
   mMaterial: {fileID: 0}
   mApplyGradient: 1
   mGradientTop: {r: 1, g: 1, b: 1, a: 1}
@@ -1121,7 +1122,7 @@ GameObject:
   - 4: {fileID: 414107665}
   - 114: {fileID: 414107666}
   m_Layer: 8
-  m_Name: SpriteDown
+  m_Name: SpriteDown1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1134,7 +1135,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 414107664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 100, z: 0}
+  m_LocalPosition: {x: 0, y: 110, z: 0}
   m_LocalScale: {x: .999679983, y: 1, z: .999679983}
   m_Children: []
   m_Father: {fileID: 294669530}
@@ -1173,6 +1174,7 @@ GameObject:
   - 4: {fileID: 679394283}
   - 114: {fileID: 679394285}
   - 114: {fileID: 679394284}
+  - 114: {fileID: 679394286}
   m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
@@ -1187,8 +1189,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 679394282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.000238418579, y: 0, z: 0}
-  m_LocalScale: {x: 1.00024796, y: 1.00024796, z: 1.00024796}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1780218090}
 --- !u!114 &679394284
@@ -1231,6 +1233,18 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!114 &679394286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 679394282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe8b42ee7d8dfa4996a457e31a4ff7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: {fileID: 1090986110}
 --- !u!1 &684026854
 GameObject:
   m_ObjectHideFlags: 0
@@ -1703,7 +1717,7 @@ MonoBehaviour:
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 4
   mWidth: 500
-  mHeight: 68
+  mHeight: 0
   mDepth: 2
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
@@ -1719,7 +1733,7 @@ MonoBehaviour:
   mEffectColor: {r: 0, g: 0, b: 0, a: 1}
   mSymbols: 1
   mEffectDistance: {x: 1, y: 1}
-  mOverflow: 1
+  mOverflow: 3
   mMaterial: {fileID: 0}
   mApplyGradient: 1
   mGradientTop: {r: 1, g: 1, b: 1, a: 1}
@@ -2009,7 +2023,7 @@ MonoBehaviour:
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 4
   mWidth: 454
-  mHeight: 160
+  mHeight: 0
   mDepth: 4
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
@@ -2025,7 +2039,7 @@ MonoBehaviour:
   mEffectColor: {r: 0, g: 0, b: 0, a: 1}
   mSymbols: 1
   mEffectDistance: {x: 1, y: 1}
-  mOverflow: 0
+  mOverflow: 3
   mMaterial: {fileID: 0}
   mApplyGradient: 1
   mGradientTop: {r: 1, g: 1, b: 1, a: 1}
@@ -2158,7 +2172,7 @@ MonoBehaviour:
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 4
   mWidth: 500
-  mHeight: 68
+  mHeight: 0
   mDepth: 2
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
@@ -2174,7 +2188,7 @@ MonoBehaviour:
   mEffectColor: {r: 0, g: 0, b: 0, a: 1}
   mSymbols: 1
   mEffectDistance: {x: 1, y: 1}
-  mOverflow: 1
+  mOverflow: 3
   mMaterial: {fileID: 0}
   mApplyGradient: 1
   mGradientTop: {r: 1, g: 1, b: 1, a: 1}
@@ -2906,7 +2920,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   render3D: {fileID: 1933910787}
   label1Quetion: {fileID: 1977899014}
+  spriteDown1Quetion: {fileID: 414107666}
   label2Quetion: {fileID: 1059189744}
+  spriteDown2Quetion: {fileID: 272604953}
   labelA: {fileID: 292021600}
   labelB: {fileID: 1090986110}
   labelC: {fileID: 833898422}
@@ -3242,6 +3258,7 @@ GameObject:
   - 4: {fileID: 1653216061}
   - 114: {fileID: 1653216063}
   - 114: {fileID: 1653216062}
+  - 114: {fileID: 1653216064}
   m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
@@ -3300,6 +3317,18 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!114 &1653216064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1653216060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe8b42ee7d8dfa4996a457e31a4ff7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: {fileID: 2008431438}
 --- !u!1 &1688079266
 GameObject:
   m_ObjectHideFlags: 0
@@ -3895,7 +3924,7 @@ MonoBehaviour:
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 4
   mWidth: 454
-  mHeight: 160
+  mHeight: 0
   mDepth: 4
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
@@ -3911,7 +3940,7 @@ MonoBehaviour:
   mEffectColor: {r: 0, g: 0, b: 0, a: 1}
   mSymbols: 1
   mEffectDistance: {x: 1, y: 1}
-  mOverflow: 1
+  mOverflow: 3
   mMaterial: {fileID: 0}
   mApplyGradient: 1
   mGradientTop: {r: 1, g: 1, b: 1, a: 1}
@@ -3943,6 +3972,7 @@ GameObject:
   - 4: {fileID: 1990767529}
   - 114: {fileID: 1990767531}
   - 114: {fileID: 1990767530}
+  - 114: {fileID: 1990767532}
   m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
@@ -4001,6 +4031,18 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!114 &1990767532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1990767528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe8b42ee7d8dfa4996a457e31a4ff7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: {fileID: 292021600}
 --- !u!1 &2005290068
 GameObject:
   m_ObjectHideFlags: 0
@@ -4011,6 +4053,7 @@ GameObject:
   - 4: {fileID: 2005290069}
   - 114: {fileID: 2005290071}
   - 114: {fileID: 2005290070}
+  - 114: {fileID: 2005290072}
   m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
@@ -4069,6 +4112,18 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!114 &2005290072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2005290068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe8b42ee7d8dfa4996a457e31a4ff7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: {fileID: 833898422}
 --- !u!1 &2008431436
 GameObject:
   m_ObjectHideFlags: 0
@@ -4112,7 +4167,7 @@ MonoBehaviour:
   mColor: {r: 0, g: 0, b: 0, a: 1}
   mPivot: 4
   mWidth: 500
-  mHeight: 68
+  mHeight: 0
   mDepth: 2
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
@@ -4128,7 +4183,7 @@ MonoBehaviour:
   mEffectColor: {r: 0, g: 0, b: 0, a: 1}
   mSymbols: 1
   mEffectDistance: {x: 1, y: 1}
-  mOverflow: 1
+  mOverflow: 3
   mMaterial: {fileID: 0}
   mApplyGradient: 1
   mGradientTop: {r: 1, g: 1, b: 1, a: 1}
