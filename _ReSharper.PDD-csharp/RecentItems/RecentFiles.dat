@@ -14,11 +14,10 @@
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:NGUI/d:Scripts/d:Interaction/f:UIButtonScale.cs" caret="777" fromTop="0" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:InterfaceScale.cs" caret="1224" fromTop="18" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:NGUI/d:Scripts/d:Internal/f:UIWidget.cs" caret="933" fromTop="5" />
-    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:DimensionScale.cs" caret="426" fromTop="12" />
-    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:TextScreenController.cs" caret="656" fromTop="18" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:ButtonSpriteScale.cs" caret="323" fromTop="14" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:Render3D.cs" caret="3592" fromTop="17" />
-    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:TextChild.cs" caret="3707" fromTop="15" />
+    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:DimensionScale.cs" caret="280" fromTop="9" />
+    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:TextChild.cs" caret="14723" fromTop="66" />
   </RecentFiles>
   <RecentEdits>
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:NGUI/d:Scripts/d:UI/f:UIRoot.cs" caret="3396" fromTop="19" />
@@ -26,11 +25,10 @@
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:ButtonDontKnow.cs" caret="0" fromTop="0" />
     <File id="BEB7D10A-1194-E425-D0BC-1BA9D454D159/d:Assets/d:NGUI/d:Scripts/d:Editor/f:UILabelInspector.cs" caret="4908" fromTop="10" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:NGUI/d:Scripts/d:UI/f:UILabel.cs" caret="27365" fromTop="14" />
-    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:DimensionScale.cs" caret="242" fromTop="8" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:NGUI/d:Scripts/d:Internal/f:UIWidget.cs" caret="25224" fromTop="4" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:ButtonSpriteScale.cs" caret="237" fromTop="9" />
-    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:TextScreenController.cs" caret="656" fromTop="18" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:Render3D.cs" caret="4928" fromTop="20" />
-    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:TextChild.cs" caret="3707" fromTop="15" />
+    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:DimensionScale.cs" caret="280" fromTop="9" />
+    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:TextChild.cs" caret="15022" fromTop="24" />
   </RecentEdits>
 </RecentFiles>

@@ -946,7 +946,6 @@ GameObject:
   - 114: {fileID: 308703972}
   - 114: {fileID: 308703971}
   - 114: {fileID: 308703970}
-  - 114: {fileID: 308703974}
   - 114: {fileID: 308703975}
   m_Layer: 11
   m_Name: ButtonBack
@@ -1030,23 +1029,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 40, y: 40, z: 14.8100004}
   m_Center: {x: 0, y: 0, z: -.25}
---- !u!114 &308703974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400038, guid: 59ceb9c9c93212c4ab67da1904507192,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 308703968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 844eba72b2a53074e8f016625be78a11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  positionX: 1
-  positionY: 1
-  scaleX: 0
-  scaleY: 0
-  inv: 0
 --- !u!114 &308703975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1324,7 +1306,6 @@ GameObject:
   - 114: {fileID: 690971948}
   - 114: {fileID: 690971947}
   - 114: {fileID: 690971946}
-  - 114: {fileID: 690971950}
   m_Layer: 11
   m_Name: ButtonList
   m_TagString: Untagged
@@ -1407,23 +1388,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 40, y: 40, z: 0}
   m_Center: {x: 0, y: 0, z: -.25}
---- !u!114 &690971950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400056, guid: 59ceb9c9c93212c4ab67da1904507192,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 690971944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 844eba72b2a53074e8f016625be78a11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  positionX: 1
-  positionY: 1
-  scaleX: 0
-  scaleY: 0
-  inv: 0
 --- !u!1 &715192186
 GameObject:
   m_ObjectHideFlags: 0
