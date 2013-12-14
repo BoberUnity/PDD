@@ -146,12 +146,10 @@ public class TextChild : MonoBehaviour
         if (Resources.Load<GameObject>("Prefs/" + t.allBox[NumQuestion+1][0].Substring(0, t.allBox[NumQuestion+1][0].Length - 1)) == null)
         {
             instance = Instantiate(Resources.Load<GameObject>("Prefs/1.1.")) as GameObject;
-            Debug.LogWarning("Resources was not found path: Prefs/" + t.allBox[NumQuestion+1][0].Substring(0, t.allBox[NumQuestion+1][0].Length - 1));
         }
         else
         {
             instance = Instantiate(Resources.Load<GameObject>("Prefs/" + t.allBox[NumQuestion+1][0].Substring(0, t.allBox[NumQuestion+1][0].Length - 1))) as GameObject;
-            //Debug.LogWarning("Resources in path Prefs/" + t.allBox[NumQuestion][0].Substring(0, t.allBox[NumQuestion][0].Length - 1) + " load sucessfull");
         }
 
         SetCamera();
@@ -217,8 +215,6 @@ public class TextChild : MonoBehaviour
     public void UnloadPref()
     {
         Destroy(instance2);
-        Resources.UnloadUnusedAssets();
-        
     }
 
     private void SetCamera()

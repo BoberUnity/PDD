@@ -40,7 +40,6 @@ public class Render3D : MonoBehaviour
         viewHeight = 0.22f;// *1.7777f / actualAspect;
         screen1.localScale = new Vector3(screen1.localScale.x, screen1.localScale.y, screen1.localScale.z * actualAspect / 1.7777f);
         screen2.localScale = new Vector3(screen2.localScale.x, screen2.localScale.y, screen2.localScale.z * actualAspect / 1.7777f);
-        //screen1.localPosition = new Vector3(screen1.localPosition.x, screen1.localPosition.y, screen1.localPosition.z);
         qPosX = Question1Label.localPosition.x;
         qPosY = Question1Label.localPosition.y;
     }
