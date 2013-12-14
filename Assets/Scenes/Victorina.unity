@@ -2352,6 +2352,70 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 600, y: 10.0200005, z: 0}
   m_Center: {x: -.820922852, y: 0, z: 0}
+--- !u!1 &1182052470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1182052471}
+  - 114: {fileID: 1182052472}
+  - 114: {fileID: 1182052473}
+  m_Layer: 11
+  m_Name: CounterSprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1182052471
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1182052470}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -350, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2108778961}
+--- !u!114 &1182052472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1182052470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 300
+  mHeight: 22
+  mDepth: 22
+  autoResizeBoxCollider: 0
+  mAtlas: {fileID: 11400000, guid: 36d4a3b0c019f1c4faa450ce814e024f, type: 2}
+  mSpriteName: Counter
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!114 &1182052473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1182052470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64f662202b45d704792efcbd6093d77d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textChild: {fileID: 1438869206}
 --- !u!1 &1196046848
 GameObject:
   m_ObjectHideFlags: 0
@@ -2725,7 +2789,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1410738178}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -230, y: -40, z: 0}
+  m_LocalPosition: {x: -260, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2108778961}
@@ -2744,7 +2808,7 @@ MonoBehaviour:
   mPivot: 4
   mWidth: 100
   mHeight: 25
-  mDepth: 16
+  mDepth: 23
   autoResizeBoxCollider: 0
   keepCrispWhenShrunk: 1
   mTrueTypeFont: {fileID: 0}
@@ -4556,6 +4620,7 @@ Transform:
   - {fileID: 1410738179}
   - {fileID: 1783811235}
   - {fileID: 743838327}
+  - {fileID: 1182052471}
   m_Father: {fileID: 1939852654}
 --- !u!54 &2108778962
 Rigidbody:

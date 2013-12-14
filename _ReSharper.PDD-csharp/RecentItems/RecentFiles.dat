@@ -17,7 +17,9 @@
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:ButtonSpriteScale.cs" caret="323" fromTop="14" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:Render3D.cs" caret="3592" fromTop="17" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:DimensionScale.cs" caret="280" fromTop="9" />
-    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:TextChild.cs" caret="14723" fromTop="66" />
+    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:Clock.cs" caret="326" fromTop="8" />
+    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:TextChild.cs" caret="11385" fromTop="76" />
+    <File id="7020124F-9FFC-4AC3-8F3D-AAB8E0240759/f:CounterSprite.cs" caret="0" fromTop="0" />
   </RecentFiles>
   <RecentEdits>
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:NGUI/d:Scripts/d:UI/f:UIRoot.cs" caret="3396" fromTop="19" />
@@ -29,6 +31,7 @@
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:ButtonSpriteScale.cs" caret="237" fromTop="9" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:Render3D.cs" caret="4928" fromTop="20" />
     <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:DimensionScale.cs" caret="280" fromTop="9" />
-    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:TextChild.cs" caret="15022" fromTop="24" />
+    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:Clock.cs" caret="426" fromTop="10" />
+    <File id="3361B45A-10F2-2536-55DC-6D3AD244887F/d:Assets/d:Scripts/f:TextChild.cs" caret="11385" fromTop="1" />
   </RecentEdits>
 </RecentFiles>

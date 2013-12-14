@@ -27,6 +27,11 @@ public class TextChild : MonoBehaviour
     private GameObject instance = null;
     private GameObject instance2 = null;
     private int rightAnswers = 0;
+    
+    public int RightAnswer
+    {
+        get { return rightAnswers;}
+    }
 
     private float labelQuest1Resize = 0;
     public float LabelQuest1Resize
@@ -102,7 +107,6 @@ public class TextChild : MonoBehaviour
                     labelD.text = t.allBox[numQuestion][7];
                 }
             }
-            ResizeButtns();
         }
     }
 
@@ -127,7 +131,6 @@ public class TextChild : MonoBehaviour
         //NumQuestion++;//text
         PreloadScene();
         render3D.Play = true;
-        ResizeQues();
         
     }
 
@@ -305,108 +308,5 @@ public class TextChild : MonoBehaviour
     public void DontKnow(UILabel label)
     {
         label.text = t.allBox[numQuestion][2];
-        ResizeQues();
-        ResizeButtns();
-    }
-
-    private void ResizeQues()
-    {
-        if (label1Quetion.height > 120)
-        {
-            spriteDown1Quetion.transform.localPosition = new Vector3(spriteDown1Quetion.transform.localPosition.x, 110 - label1Quetion.height + 120, spriteDown1Quetion.transform.localPosition.z);
-            labelQuest1Resize = label1Quetion.height * .5f - 60;
-        }
-        else
-        {
-            spriteDown1Quetion.transform.localPosition = new Vector3(spriteDown1Quetion.transform.localPosition.x, 110, spriteDown1Quetion.transform.localPosition.z);
-            labelQuest1Resize = 0;
-        }
-
-        if (label2Quetion.height > 120)
-        {
-            spriteDown2Quetion.transform.localPosition = new Vector3(spriteDown2Quetion.transform.localPosition.x, 110 - label2Quetion.height + 120, spriteDown2Quetion.transform.localPosition.z);
-            labelQuest2Resize = label2Quetion.height * .5f - 60;
-        }
-        else
-        {
-            spriteDown2Quetion.transform.localPosition = new Vector3(spriteDown2Quetion.transform.localPosition.x, 110, spriteDown2Quetion.transform.localPosition.z);
-            labelQuest2Resize = 0;
-        }
-    }
-
-    private void ResizeButtns()
-    {
-
-        float h;
-        if (!render3D.Cam1Left)
-            h = labelQuest1Resize;
-        else
-            h = labelQuest2Resize;
-
-        float pos = 0;//На сколько смещены кнопки в результате ресайза
-        if (labelA.height > 48)
-        {
-            spriteA.height = 80 + labelA.height - 48;
-            pos = labelA.height - 48;
-        }
-        else
-            spriteA.height = 80;
-        
-        MoveButton(labelA, -230 - pos*0.5f, h);
-        MoveButton(labelB, -320 - pos, h);
-        MoveButton(labelC, -410 - pos, h);
-        MoveButton(labelD, -500 - pos, h);
-        
-        float pos2 = 0;//На сколько смещены кнопки в результате ресайза
-        if (labelB.height > 48)
-        {
-            spriteB.height = 80 + labelB.height - 48;
-            pos2 = labelB.height - 48;
-        }
-        else
-            spriteB.height = 80;
-        
-        MoveButton(labelB, -320 - pos - pos2 * 0.5f, h);
-        MoveButton(labelC, -410 - pos - pos2, h);
-        MoveButton(labelD, -500 - pos - pos2, h);
-
-        float pos3 = 0;//На сколько смещены кнопки в результате ресайза
-        if (labelC.height > 48)
-        {
-            spriteC.height = 80 + labelC.height - 48;
-            pos3 = labelC.height - 48;
-        }
-        else
-            spriteC.height = 80;
-
-        MoveButton(labelC, -410 - pos - pos2 - pos3 * 0.5f, h);
-        MoveButton(labelD, -500 - pos - pos2 - pos3, h);
-
-        float pos4 = 0;//На сколько смещены кнопки в результате ресайза
-        if (labelD.height > 48)
-        {
-            spriteD.height = 80 + labelD.height - 48;
-            pos4 = labelD.height - 48;
-        }
-        else
-            spriteD.height = 80;
-
-        MoveButton(labelD, -500 - pos - pos2 - pos3 - pos4 * 0.5f, h);
-    }
-
-    private void MoveButton(UILabel label, float startPos, float height)
-    {
-
-        Transform t = label.transform.parent;
-        if (Mathf.Abs(t.localPosition.y - (startPos - height)) > 1)
-        {
-            t.localPosition = new Vector3(t.localPosition.x, startPos - height, t.localPosition.z);
-        
-            if (t.gameObject.activeSelf)
-            {
-                t.gameObject.SetActive(false);
-                t.gameObject.SetActive(true);
-            }   
-        }
     }
 }
