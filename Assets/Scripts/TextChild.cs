@@ -254,7 +254,7 @@ public class TextChild : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         t = GameObject.Find("TextController(Clone)").GetComponent<Text>();
-        NumQuestion = 1;
+        NumQuestion = 2;
         label1Quetion.text = t.allBox[numQuestion][1];
         instance = Instantiate(Resources.Load<GameObject>("Prefs/" + t.allBox[NumQuestion][0].Substring(0, t.allBox[NumQuestion][0].Length - 1))) as GameObject;
         SetLayer(instance, 9);
