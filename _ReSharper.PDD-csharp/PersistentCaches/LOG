@@ -1,5 +1,5 @@
-2013/12/13-23:04:14.595 ef8 Recovering log #28
-2013/12/13-23:04:14.595 ef8 Level-0 table #31: started
-2013/12/13-23:04:14.685 ef8 Level-0 table #31: 20650 bytes OK
-2013/12/13-23:04:14.771 ef8 Delete type=0 #28
-2013/12/13-23:04:14.771 ef8 Delete type=3 #26
+2013/12/14-22:29:55.488 a68 Recovering log #32
+2013/12/14-22:29:55.488 a68 Level-0 table #34: started
+2013/12/14-22:29:55.568 a68 Level-0 table #34: 27075 bytes OK
+2013/12/14-22:29:55.648 a68 Delete type=0 #32
+2013/12/14-22:29:55.648 a68 Delete type=3 #30

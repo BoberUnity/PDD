@@ -176,6 +176,7 @@
      <Compile Include="Assets\Scripts\ButtonSelectScene.cs" />
      <Compile Include="Assets\Scripts\ButtonSpriteScale.cs" />
      <Compile Include="Assets\Scripts\CarBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Clock.cs" />
      <Compile Include="Assets\Scripts\DimensionScale.cs" />
      <Compile Include="Assets\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Scripts\InterfaceScale.cs" />
